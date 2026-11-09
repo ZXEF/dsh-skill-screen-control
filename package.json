@@ -1,0 +1,38 @@
+{
+  "name": "dsh-skill-screen-control",
+  "version": "0.1.1",
+  "description": "DSH skill: drive any Windows desktop application with screenshot + vision + simulated mouse/keyboard, plus a click-through thought-stream overlay.",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "skill",
+    "computer-use",
+    "gui-automation",
+    "screenshot",
+    "windows"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19"
+  },
+  "license": "MIT"
+}

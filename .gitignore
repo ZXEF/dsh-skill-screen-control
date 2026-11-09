@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# packed tarballs (release artifacts are attached to GitHub Releases)
+*.tgz
+
+# local logs / scratch
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+# Bundle self-activation patch.
+#
+# When this package is installed into a profile (for example with the plugin
+# manager, or `dsh plugin --profile <name> add dsh-skill-screen-control`), this
+# patch mounts the plugin's host half. The plugin registers a bundled skill
+# provider on `ctx.skills`, so the `screen-control` skill shows up in the
+# session catalog without copying any files by hand.
+- insert:
+    - id: skill-screen-control
+      name: dsh-skill-screen-control
