@@ -3,6 +3,7 @@
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）用的技能包：让 agent 用**截图 + 视觉识别 + 模拟鼠标键盘**真实操作 Windows 桌面程序，并带一个置顶、鼠标穿透的「思考流」浮窗。
 
 装完之后，`screen-control` 会出现在 DSH 的技能目录里，**不需要手动拷任何文件**。
+！！！注意！！！本项目是对着dsh许愿出来的，包括这里的上传，所以肯定会有一些难以名状的bug！！！
 
 ---
 
